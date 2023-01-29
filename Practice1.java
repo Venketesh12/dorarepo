@@ -14,7 +14,6 @@ public class Practice1{
         int a = sc.nextInt();
         int b = sc.nextInt();
         System.out.println(Greatest(a, b));
-
         
         sc.close();
     }
