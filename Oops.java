@@ -1,15 +1,24 @@
-import java.util.*;
-
 public class Oops {
-    public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        String rev="";
-        String name = sc.next();
+    void sqare(int side){
+        int area = side * side;
+        System.out.println("area of square = "+area);
+    }
 
-        for(int i=name.length()-1; i>=0; i--){
-            rev=rev+name.charAt(i);
-        }
-        System.out.print(rev);
-        sc.close();
+    void rec (int a, int b){
+        int area = a*b;
+        System.out.println("area of rec = "+area);
+    }
+
+    void circle(int r){
+        double area =3.14*r*r ;
+        System.out.println("area of circle = "+area);
+    }
+    public static void main(String args[]){
+        Oops obj=new Oops();
+        obj.circle(5);
+        obj.rec(10, 20);
+        obj.sqare(6);
+
+       
     }
 }
