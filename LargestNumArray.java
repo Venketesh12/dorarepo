@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class LargestNumArray {
     public static int getLargsest(int num[]){
         int largest = Integer.MIN_VALUE;
