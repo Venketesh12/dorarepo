@@ -9,8 +9,12 @@ public class LinearSearch {
     }
     public static void main(String args[]){
         int num[] = {20,30,50,10,29,78};
-        int key = 11;
+        int key = 10;
         int index =Changes(num, key);
-        System.out.println(key +" = "+index);
+        if(index == -1){
+            System.out.println("Not found");
+        }else{
+            System.out.println(key +" = "+index);
+        }
     }
 }

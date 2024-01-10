@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Practice2",
+            "request": "launch",
+            "mainClass": "Practice2",
+            "projectName": "Java_6ec91af9"
+        },
+        {
+            "type": "java",
             "name": "Practice",
             "request": "launch",
             "mainClass": "Practice",
