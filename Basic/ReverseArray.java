@@ -1,4 +1,4 @@
-public class ReverseArray2 {
+public class ReverseArray {
     // static void reverse(int num[], int n){
         //Brute force
         // int reverse[] = new int [n];

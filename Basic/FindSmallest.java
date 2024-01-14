@@ -1,4 +1,4 @@
-public class FindSmallest1 {
+public class FindSmallest {
     public static int smallest(int num[]){
         //using sort
         // Arrays.sort(num);

@@ -1,4 +1,4 @@
-public class ReverseArray {
+public class reverseArray {
     static void reverse(int num[], int n){
         int start = 0;
         int end = n-1;
