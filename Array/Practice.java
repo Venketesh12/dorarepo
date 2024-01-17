@@ -2,7 +2,7 @@ public class Practice {
     public static int subArraySum(int num[], int n){
         int maxsum = Integer.MIN_VALUE;
         for(int i=0; i<n; i++){
-            for(int j=0; j<i; j++){
+            for(int j=i; j<i; j++){
                 for(int k=i; k<j; k++){
                     int sum = 0;
                     sum += num[k];
@@ -18,5 +18,4 @@ public class Practice {
         int maximum = subArraySum(num, n);
         System.out.println(maximum);
     }
-    
 }
